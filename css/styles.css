@@ -159,6 +159,28 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.open-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.background-menu {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
 .adr {
   font-family: "Roboto";
   font-size: 14px;
@@ -181,6 +203,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 .navy-btn:hover {
   background: #2196f3;
@@ -196,6 +220,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--links-text-color);
+  padding-left: 24px;
 }
 .picture-title {
   font-family: "Roboto";
@@ -203,4 +228,5 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
 }
