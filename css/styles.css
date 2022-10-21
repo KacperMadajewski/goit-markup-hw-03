@@ -54,6 +54,11 @@ body {
   padding-bottom: 94px;
 }
 
+.footer-box {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .link {
   text-decoration: none;
   cursor: pointer;
@@ -95,13 +100,22 @@ body {
 .btn {
   background-color: var(--hoover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   cursor: pointer;
   text-align: center;
   justify-content: center;
   width: 200px;
   height: 50px;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 4px;
+  border: none;
 }
 
 .slogan-box {
@@ -124,6 +138,12 @@ body {
 .text-table {
   display: flex;
   list-style: none;
+  max-width: 1170px;
+  justify-content: space-between;
+}
+
+.text-table-box {
+  width: 270px;
 }
 
 .text-table .text-title {
@@ -153,7 +173,12 @@ body {
 .section-table {
   display: flex;
   list-style: none;
+  max-width: 1170px;
   justify-content: space-between;
+}
+
+.section-table-box {
+  width: 370px;
 }
 
 .photos-description {
@@ -204,10 +229,11 @@ body {
   gap: 30px;
   padding: 0;
   list-style: none;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .background-menu {
+  width: 370px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
@@ -239,6 +265,7 @@ body {
   cursor: pointer;
   background: #f5f4fa;
   border-radius: 4px;
+  border: none;
 }
 .navy-btn:hover {
   background: #2196f3;
@@ -247,6 +274,12 @@ body {
   border-radius: 4px;
   color: var(--white-item-color);
   cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .work-type {
   font-family: "Roboto";
