@@ -218,9 +218,9 @@ body {
 .menu {
   display: flex;
   list-style: none;
-  align-items: center;
   justify-content: center;
   gap: 8px;
+  padding-bottom: 50px;
 }
 
 .open-menu {
